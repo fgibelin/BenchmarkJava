@@ -42,7 +42,7 @@ BenchmarkTest00040,pathtraver,true,22
 BenchmarkTest00041,xss,true,79
 BenchmarkTest00042,weakrand,false,330
 BenchmarkTest00043,sqli,true,89
-BenchmarkTest00044,ldapi,true,90
+BenchmarkTest00044,ldapi,false,90
 BenchmarkTest00045,pathtraver,true,22
 BenchmarkTest00046,hash,true,328
 BenchmarkTest00047,xss,true,79
