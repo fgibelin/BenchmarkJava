@@ -89,6 +89,10 @@ public class LDAPManager {
         return true;
     }
 
+    public static String createPersonUidFilter(String uid) {
+        return "(&(objectclass=person)(uid=" + ESAPI_Encoder.encodeForLDAP(uid) + "))";
+    }
+
     /**
      * Search LDAPPerson by name
      *
